@@ -1,0 +1,81 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #213547;
+  background-color: #f2f2f2;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Центрирование приложения */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f2f2f2;
+}
+
+/* Карточка приложения */
+.app {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Заголовок */
+h1 {
+  text-align: center;
+}
+
+/* Список задач */
+ul {
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Кнопки */
+button {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Поле ввода */
+input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
